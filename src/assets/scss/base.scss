@@ -1,0 +1,9 @@
+
+
+body {
+    background-color: $color-light;
+}
+span {
+    color: $color-text;
+    @include ellipsis()
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- 引入reset.css：清楚默认的样式 
+    "<%= BASE_URL %>" 是webpack配置好的路径
+    -->
+    <!-- <link rel="icon" href="<%= BASE_URL %>reset.css"> -->
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_3430658_91mzmeq71lm.css">
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.7.0/vue.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue-router/3.5.4/vue-router.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/1.0.0-alpha.1/axios.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/element-ui/2.15.8/index.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/Swiper/5.4.5/js/swiper.js"></script>
+    <link href="https://cdn.bootcdn.net/ajax/libs/Swiper/5.4.5/css/swiper.css" rel="stylesheet">
+    
+    <script src="https://cdn.bootcdn.net/ajax/libs/Mock.js/1.0.0/mock.js"></script>
+
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
